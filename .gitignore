@@ -1,0 +1,42 @@
+# System files ----------------------------------------
+
+# MacOS garbage
+.DS_Store
+.idea
+
+# password and api key files
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.ssh
+.httr-oauth
+.kaggle
+.google
+
+# Data folders
+_archive/*
+
+# R files ---------------------------------------------
+
+# Project files
+*.RProj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+inst/doc
+
+# History files
+.Rapp.history
+# knitr and R markdown default cache directories
+/*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+rsconnect/
+
+
+# Python files ------------------------------------------
+*.pyc
